@@ -1,0 +1,488 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    body{
+    height: 500vh;
+    background-color: #e9db9c;
+    font-family: "Rubik", sans-serif !important;
+}
+.home{
+    background-color: #bcac71;
+    text-align:left;
+    display: flex !important;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: -8px;
+    margin-top: -8px;
+
+ }
+ a:link{
+    color: #fff;
+    outline: none;
+}
+#link{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:active{
+    color: #fff;
+}
+a:visited{
+    color: #fff; 
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image_contact.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    padding: 200px 15px;
+    margin-left:-8px;
+    margin-right: cover;
+  
+}
+:root{
+    --color-primaria-scl : rgba(109, 56, 21, 0.933);
+    --color-secundaria-scl : rgb(70, 42, 23);
+    --color-hover-scl : rgb(109, 77, 46);
+}
+
+.scl{
+    border: none;
+    padding: 10px;
+    background-color: var(--color-primaria-scl);
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background .3s;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+    background-color: #bcac71;
+    text-align:left;
+    display: flex !important;
+    justify-content:space-around;
+    
+    margin-left: -8px;
+    margin-top: 40px;
+
+}
+.scl:hover{
+    background-color: var(--color-hover-scl);
+}
+.scl:active{
+    color: #ffffff;
+    background-color: var(--color-secundaria-scl);
+}
+.link-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+.link-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.1rem;
+    
+   
+}
+.p2{
+    text-align: center;
+    background-color: #bcac71;
+    justify-content:space-around;
+    padding: 15px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    
+   
+
+}
+#sele{
+    font-size: 15px;
+}
+
+.produto{
+    
+    width: 300px;
+}
+
+.group{
+    display: flex ;
+    
+}
+.group1{
+    display: flex ;
+    
+}
+.group2{
+    display: flex ;
+    
+}
+.group3{
+    display: flex ;
+    
+}
+.group4{
+    display: flex ;
+    
+}
+.group5{
+    display: flex ;
+    
+}
+.group6{
+    display: flex ;
+    
+}
+
+.box{
+    position: relative;
+   width: 30%;
+   overflow: hidden;
+    margin: 20px auto;
+    padding: 20px 50px;
+    background-color: #c2b484;
+    text-align: center;
+    border-radius: 15px;
+    
+    
+   
+}
+.box:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box1:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box2:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box3:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box4:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box5:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box6:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box7:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box8:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box9:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box10:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box11:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box12:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box13:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box14:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box15:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box16:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box17:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box18:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box19:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box20:hover{
+    background-color:rgb(204, 148, 93);
+    text-decoration: underline;
+}
+.box1{
+    position: relative;
+   width: 30%;
+   overflow: hidden;
+    margin: 20px auto;
+    padding: 20px 50px;
+    background-color: #c2b484;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+.box2{
+    position: relative;
+   width: 30%;
+   overflow: hidden;
+    margin: 20px auto;
+    padding: 20px 50px;
+    background-color: #c2b484;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+
+    .box3{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    
+    .box4{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .box5{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+       
+    }
+    .box6{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box7{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box8{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box9{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box10{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box11{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+      
+    }
+    .box12{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+     background-position-x: right;
+    }
+    .box13{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .box14{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box15{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 10px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box16{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box17{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box18{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+       
+    }
+    .box19{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto ;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    .box20{
+        position: relative;
+       width: 30%;
+       overflow: hidden;
+        margin: 20px auto;
+        padding: 20px 50px;
+        background-color: #c2b484;
+        text-align: center;
+        border-radius: 15px;
+       
+    }
+    .btn-bolos{
+        border: none;
+        padding: 5px;
+        background-color: var(--color-primaria-scl);
+        outline: none;
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background .3s;
+        font-size: 150%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+ 
